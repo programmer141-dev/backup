@@ -1,0 +1,9 @@
+2021-10-12T10:43:02.826Z Error: You do not have access to the app app-us-per.
+2021-10-12T10:43:02.826Z Error ID: forbidden
+2021-10-12T10:43:02.826Z     at Function.request (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@heroku-cli/command/lib/api-client.js:109:27)
+2021-10-12T10:43:02.826Z     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-10-12T10:43:02.826Z     at async GitClone.run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-git/lib/commands/git/clone.js:9:31)
+2021-10-12T10:43:02.826Z     at async GitClone._run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2021-10-12T10:43:02.826Z     at async Config.runCommand (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/config/lib/config.js:151:9)
+2021-10-12T10:43:02.826Z     at async Main.run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+2021-10-12T10:43:02.826Z     at async Main._run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/command/lib/command.js:44:20)

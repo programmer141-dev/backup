@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/data/data/com.termux/files/usr/bin/node',
+1 verbose cli   '/data/data/com.termux/files/usr/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'build'
+1 verbose cli ]
+2 info using npm@6.14.15
+3 info using node@v16.10.0
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle @~prebuild: @
+6 info lifecycle @~build: @
+7 verbose lifecycle @~build: unsafe-perm in lifecycle true
+8 verbose lifecycle @~build: PATH: /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/data/data/com.termux/files/home/uday/ubay/node_modules/.bin:/data/data/com.termux/files/usr/bin:/data/data/com.termux/files/usr/bin/applets
+9 verbose lifecycle @~build: CWD: /data/data/com.termux/files/home/uday/ubay
+10 silly lifecycle @~build: Args: [ '-c', 'react-scripts --max_old_space_size=4096 build' ]
+11 info lifecycle @~build: Failed to exec build script
+12 verbose stack Error: @ build: `react-scripts --max_old_space_size=4096 build`
+12 verbose stack spawn ENOENT
+12 verbose stack     at ChildProcess.<anonymous> (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:48:18)
+12 verbose stack     at ChildProcess.emit (node:events:390:28)
+12 verbose stack     at maybeClose (node:internal/child_process:1064:16)
+12 verbose stack     at Process.ChildProcess._handle.onexit (node:internal/child_process:301:5)
+13 verbose pkgid @
+14 verbose cwd /data/data/com.termux/files/home/uday/ubay
+15 verbose Linux 4.9.82-perf+
+16 verbose argv "/data/data/com.termux/files/usr/bin/node" "/data/data/com.termux/files/usr/bin/npm" "run" "build"
+17 verbose node v16.10.0
+18 verbose npm  v6.14.15
+19 error code ELIFECYCLE
+20 error syscall spawn
+21 error file sh
+22 error errno ENOENT
+23 error @ build: `react-scripts --max_old_space_size=4096 build`
+23 error spawn ENOENT
+24 error Failed at the @ build script.
+24 error This is probably not a problem with npm. There is likely additional logging output above.
+25 verbose exit [ 1, true ]

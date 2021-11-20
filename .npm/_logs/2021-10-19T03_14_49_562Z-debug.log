@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/data/data/com.termux/files/usr/bin/node',
+1 verbose cli   '/data/data/com.termux/files/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'jsonwebtocken',
+1 verbose cli   'express',
+1 verbose cli   'mongoose',
+1 verbose cli   'nodemon'
+1 verbose cli ]
+2 info using npm@6.14.15
+3 info using node@v16.10.0
+4 verbose npm-session 9646f7fc279573c1
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/nodemon 1126ms
+8 silly pacote tag manifest for nodemon@latest fetched in 1178ms
+9 http fetch GET 200 https://registry.npmjs.org/express 1188ms
+10 silly pacote tag manifest for express@latest fetched in 1230ms
+11 http fetch GET 404 https://registry.npmjs.org/jsonwebtocken 1767ms
+12 http fetch GET 200 https://registry.npmjs.org/mongoose 2512ms
+13 http fetch GET 404 https://registry.npmjs.org/jsonwebtocken 1246ms
+14 silly fetchPackageMetaData error for jsonwebtocken@latest 404 Not Found - GET https://registry.npmjs.org/jsonwebtocken - Not found
+15 http fetch GET 200 https://registry.npmjs.org/mongoose/-/mongoose-6.0.11.tgz 438ms
+16 silly pacote tag manifest for mongoose@latest fetched in 3095ms
+17 timing stage:rollbackFailedOptional Completed in 3ms
+18 timing stage:runTopLevelLifecycles Completed in 3308ms
+19 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/jsonwebtocken - Not found
+19 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:117:15
+19 verbose stack     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+20 verbose statusCode 404
+21 verbose pkgid jsonwebtocken@latest
+22 verbose cwd /data/data/com.termux/files/home/mern/server
+23 verbose Linux 4.9.82-perf+
+24 verbose argv "/data/data/com.termux/files/usr/bin/node" "/data/data/com.termux/files/usr/bin/npm" "i" "jsonwebtocken" "express" "mongoose" "nodemon"
+25 verbose node v16.10.0
+26 verbose npm  v6.14.15
+27 error code E404
+28 error 404 Not Found - GET https://registry.npmjs.org/jsonwebtocken - Not found
+29 error 404
+30 error 404 'jsonwebtocken@latest' is not in the npm registry.
+31 error 404 You should bug the author to publish it (or use the name yourself!)
+32 error 404 Note that you can also install from a
+33 error 404 tarball, folder, http url, or git url.
+34 verbose exit [ 1, true ]

@@ -1,0 +1,41 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/data/data/com.termux/files/usr/bin/node',
+1 verbose cli   '/data/data/com.termux/files/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'jsonwebtocken',
+1 verbose cli   'express',
+1 verbose cli   'mongoose'
+1 verbose cli ]
+2 info using npm@6.14.15
+3 info using node@v16.10.0
+4 verbose npm-session 672953b35656182f
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/express 745ms (from cache)
+8 silly pacote tag manifest for express@latest fetched in 803ms
+9 http fetch GET 404 https://registry.npmjs.org/jsonwebtocken 1602ms
+10 http fetch GET 200 https://registry.npmjs.org/mongoose 2023ms
+11 silly pacote tag manifest for mongoose@latest fetched in 2100ms
+12 http fetch GET 404 https://registry.npmjs.org/jsonwebtocken 1161ms
+13 silly fetchPackageMetaData error for jsonwebtocken@latest 404 Not Found - GET https://registry.npmjs.org/jsonwebtocken - Not found
+14 timing stage:rollbackFailedOptional Completed in 7ms
+15 timing stage:runTopLevelLifecycles Completed in 3010ms
+16 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/jsonwebtocken - Not found
+16 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:117:15
+16 verbose stack     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+17 verbose statusCode 404
+18 verbose pkgid jsonwebtocken@latest
+19 verbose cwd /data/data/com.termux/files/home/mern/server
+20 verbose Linux 4.9.82-perf+
+21 verbose argv "/data/data/com.termux/files/usr/bin/node" "/data/data/com.termux/files/usr/bin/npm" "i" "jsonwebtocken" "express" "mongoose"
+22 verbose node v16.10.0
+23 verbose npm  v6.14.15
+24 error code E404
+25 error 404 Not Found - GET https://registry.npmjs.org/jsonwebtocken - Not found
+26 error 404
+27 error 404 'jsonwebtocken@latest' is not in the npm registry.
+28 error 404 You should bug the author to publish it (or use the name yourself!)
+29 error 404 Note that you can also install from a
+30 error 404 tarball, folder, http url, or git url.
+31 verbose exit [ 1, true ]

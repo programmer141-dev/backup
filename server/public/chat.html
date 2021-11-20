@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Socket chat</title>
+</head>
+
+<body>
+  <div class="total">
+    <div class="firsthalf">
+      <a href="/" class="leave-btn">Leave Room</a>
+      <p id='room-name' class="chat-room-name"></p>
+      <div id='chat-room' class="chat-room">
+
+      </div>
+      <form id='form' class="input-cont">
+        <input id='input' type="text" class="input">
+        <button class="send-btn">
+          <ion-icon name="send"></ion-icon>
+        </button>
+      </form>
+    </div>
+    <div id='secondhalf' class="secondhalf">
+      <div id='modal' class="modal">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.10.1/qs.min.js"
+    integrity="sha512-aTKlYRb1QfU1jlF3k+aS4AqTpnTXci4R79mkdie/bp6Xm51O5O3ESAYhvg6zoicj/PD6VYY0XrYwsWLcvGiKZQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="module" src="./main.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

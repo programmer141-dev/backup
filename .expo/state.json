@@ -1,0 +1,11 @@
+{
+  "PATH": "/data/data/com.termux/files/usr/bin:/data/data/com.termux/files/usr/bin/applets",
+  "uuid": "c744bc83-843c-47f5-866e-222807a03709",
+  "auth": {
+    "userId": "4c7261c7-bc68-422f-9d62-933ffa3bac84",
+    "username": "sidhardh",
+    "currentConnection": "Username-Password-Authentication",
+    "sessionSecret": "{\"id\":\"62a252d2-4f07-45e2-a703-bd5740642466\",\"version\":1,\"expires_at\":1893456000000}"
+  },
+  "sendTo": "sidhardhchandra141@gmail.com"
+}
